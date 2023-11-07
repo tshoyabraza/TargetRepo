@@ -17,5 +17,5 @@ jobs:
           cd $GITHUB_WORKSPACE  # Change to the repository directory
           git config --global user.name "shoyabrazat"
           git config --global user.email "shoyu.shoyu21@gmail.com"
-          git pull https://github.com/shoyabrazat/TriggerRepo.git main --no-edit
+          git pull --rebase https://github.com/shoyabrazat/TriggerRepo.git main --no-edit
           git push
