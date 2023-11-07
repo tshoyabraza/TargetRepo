@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout Source Repository
         uses: actions/checkout@v2
+        with: 
+          repository: tshoyabraza/TargetRepo
+          ref: dev
 
       - name: Sync Files from Source Repository
         run: |
