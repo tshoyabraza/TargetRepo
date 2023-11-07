@@ -21,8 +21,13 @@ jobs:
         
           git clone https://shoyabrazat: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@github.com/shoyabrazat/TriggerRepo.git
           ls
-          git branch -a
           cd TriggerRepo
+          git checkout dev
+          cd..
+          git branch -a
+          git checkout
+          cp ./TriggerRepo
+          #cd TriggerRepo
           
            
    #       rm everything but the .git directory
