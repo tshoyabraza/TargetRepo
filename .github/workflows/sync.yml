@@ -18,4 +18,4 @@ jobs:
           git config --global user.name "shoyabrazat"
           git config --global user.email "shoyu.shoyu21@gmail.com"
           git pull https://github.com/shoyabrazat/TriggerRepo.git main --no-edit
-          git push -f
+          git push
