@@ -17,13 +17,13 @@ jobs:
           cd $GITHUB_WORKSPACE  # Change to the repository directory
           git config --global user.name "shoyabrazat"
           git config --global user.email "shoyu.shoyu21@gmail.com"
-          ls
+          ls -a
         
           git clone https://shoyabrazat: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@github.com/shoyabrazat/TriggerRepo.git
-          ls
+          ls -a
           cd TriggerRepo
           git checkout dev
-          ls
+          ls -a
           cd..
           git branch -a
           git checkout
