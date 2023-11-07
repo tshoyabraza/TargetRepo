@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Target Repository
-        uses: actions/checkout@v2
+ #     - name: Checkout Target Repository
+  #      uses: actions/checkout@v2
 
       - name: Sync Files from Source Repository
         run: |
