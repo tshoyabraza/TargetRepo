@@ -18,5 +18,14 @@ jobs:
           git config --global user.name "shoyabrazat"
           git config --global user.email "shoyu.shoyu21@gmail.com"
           ls
+        
+          git clone https://shoyabrazat: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@github.com/shoyabrazat/TriggerRepo.git
+         
+          rm everything but the .git directory
+          copy source\files target
+          cd target
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/project"
+          git push target master
         #  git pull https://github.com/shoyabrazat/TriggerRepo.git main --no-edit
          # git push
