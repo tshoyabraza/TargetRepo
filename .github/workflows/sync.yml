@@ -23,6 +23,7 @@ jobs:
           ls
           cd TriggerRepo
           git checkout dev
+          ls
           cd..
           git branch -a
           git checkout
